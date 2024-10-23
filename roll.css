@@ -1,0 +1,64 @@
+.body{
+    margin:0;
+    position:relative;
+}
+.heading{
+    font-family: sans-serif;
+    font-size:xx-large;
+    color: rgb(251, 255, 17);
+    margin: 0;
+    left:0;
+    right: 0;
+    top:0;
+    position:absolute;
+    background-color:rgb(0, 0, 0);
+}
+.canvas2{
+    position:absolute;
+    right:0;
+    top:0;
+    background-color:black;
+}
+.canvas1{
+    margin: 0;
+    position: absolute;
+    left:0;
+    right:0;
+    top:40px;
+    background-color: black;
+}
+
+.output.yes{
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(251, 255, 38);
+    font-size: 45px;
+    font-family:fantasy;
+    text-align: center;
+}
+
+.button{
+    font-family:serif;
+    position: fixed;
+    top:3px;
+    left:50%;
+    background-color: rgb(252, 249, 66);
+    color: rgb(52, 0, 136);
+    font-size:x-large;
+    padding: 0.05cm;
+    text-align:end;
+    border-radius: 20px;
+
+}
+
+.button:hover{
+    background-color:rgb(74, 255, 29);
+    color: rgb(0, 0, 0);
+}
